@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_victim",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TokenHack.sol": "TokenHack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TokenHack.sol": {
+			"keccak256": "0x44a0229007c2d4aa100555c461e2491a045f59a4c906756707965d8b06e902e8",
+			"urls": [
+				"bzz-raw://5991dafa21fe31f49850517ddf5b4099ac6558c32a44a9c32a6bddbe6c9bd315",
+				"dweb:/ipfs/QmRAjCxGjxFXVQT1d3LX6ccXWPoiq8HJML6YqaiCPaByYY"
+			]
+		}
+	},
+	"version": 1
+}
