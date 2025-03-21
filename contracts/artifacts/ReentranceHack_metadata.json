@@ -22,6 +22,10 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -37,7 +41,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/KingHack.sol": "KingHack"
+			"contracts/ReentrancyHack.sol": "ReentranceHack"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +55,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/KingHack.sol": {
-			"keccak256": "0xd26efb91ec543c26468c89e06616ea2ec067879f5c109ee6448bee85e0b4cc11",
+		"contracts/ReentrancyHack.sol": {
+			"keccak256": "0x14adf8adbbad69740cd7f1a5d8312d39ac86de462a85bea60c90ce36121a464d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://696dd4806a413c5fffc064f18421e79113f1b0a6b2b073039301b38549bb0f6b",
-				"dweb:/ipfs/QmadAUJoJAxDWEqQixC9APq3ZWsvXoSTDZxn6NvqLBizkq"
+				"bzz-raw://718f51f21ac8ccbe2334d0b674d32ce64c0ddbb0b34d16aafdc93d63baef325e",
+				"dweb:/ipfs/QmRaKUM3KQ4zeu9wKfqQRUST7MhcdjPBFDt9s8JbZcZ2cm"
+			]
+		},
+		"openzeppelin-contracts/math/SafeMath.sol": {
+			"keccak256": "0x7d89629fc6b075a6df7b0c88964ae1859ee98fb18cbb7e20988a9c52261f8810",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d6a824015bed2bf55351e8dd73d154c9cd52ec8bdf4a35bea7cc17d2ff82a9c",
+				"dweb:/ipfs/Qmdbzp9K8GRVk2o5kmFQ6jJER2T6AMGiFwrfqgkhSZaFff"
 			]
 		}
 	},

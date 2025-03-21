@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_who",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ReentrancyHack.sol": "Reentrance"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ReentrancyHack.sol": {
+			"keccak256": "0x14adf8adbbad69740cd7f1a5d8312d39ac86de462a85bea60c90ce36121a464d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://718f51f21ac8ccbe2334d0b674d32ce64c0ddbb0b34d16aafdc93d63baef325e",
+				"dweb:/ipfs/QmRaKUM3KQ4zeu9wKfqQRUST7MhcdjPBFDt9s8JbZcZ2cm"
+			]
+		},
+		"openzeppelin-contracts/math/SafeMath.sol": {
+			"keccak256": "0x7d89629fc6b075a6df7b0c88964ae1859ee98fb18cbb7e20988a9c52261f8810",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d6a824015bed2bf55351e8dd73d154c9cd52ec8bdf4a35bea7cc17d2ff82a9c",
+				"dweb:/ipfs/Qmdbzp9K8GRVk2o5kmFQ6jJER2T6AMGiFwrfqgkhSZaFff"
+			]
+		}
+	},
+	"version": 1
+}

@@ -6,21 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "price",
+				"outputs": [
 					{
-						"internalType": "address payable",
-						"name": "_victim",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -37,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/KingHack.sol": "KingHack"
+			"contracts/ShopHack.sol": "Buyer"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/KingHack.sol": {
-			"keccak256": "0xd26efb91ec543c26468c89e06616ea2ec067879f5c109ee6448bee85e0b4cc11",
+		"contracts/ShopHack.sol": {
+			"keccak256": "0x604d44c2cc351a797bdf5ab0197ea5036f53ab85d0cbfa1e81fc8f0e37501d84",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://696dd4806a413c5fffc064f18421e79113f1b0a6b2b073039301b38549bb0f6b",
-				"dweb:/ipfs/QmadAUJoJAxDWEqQixC9APq3ZWsvXoSTDZxn6NvqLBizkq"
+				"bzz-raw://8a2bc80888b0c60c9aacc4441af30ab13a9648f3a77a1d538ee2aa3c29c70b65",
+				"dweb:/ipfs/Qmc8gdja7zmsDLF981nZC5nxz1TqQJ6sEhn2Gr3RJ6zb1q"
 			]
 		}
 	},

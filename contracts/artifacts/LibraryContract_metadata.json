@@ -8,19 +8,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_victim",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_time",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "attack",
+				"name": "setTime",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -37,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/KingHack.sol": "KingHack"
+			"contracts/PreservationHack.sol": "LibraryContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/KingHack.sol": {
-			"keccak256": "0xd26efb91ec543c26468c89e06616ea2ec067879f5c109ee6448bee85e0b4cc11",
+		"contracts/PreservationHack.sol": {
+			"keccak256": "0x16634d27644b3781e1727f268b7cf08823f0b7ee17df71880f236f993855e93c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://696dd4806a413c5fffc064f18421e79113f1b0a6b2b073039301b38549bb0f6b",
-				"dweb:/ipfs/QmadAUJoJAxDWEqQixC9APq3ZWsvXoSTDZxn6NvqLBizkq"
+				"bzz-raw://8e81a496d186b90fa6501d3412480f8458921feca2b27d2ea7927af2cfd66c8a",
+				"dweb:/ipfs/QmdDgtvJPXwc2otg4QRwRmm5rFiHc5KiseyxqTVt7NFzPk"
 			]
 		}
 	},

@@ -6,22 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_victim",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "attack",
-				"outputs": [],
 				"stateMutability": "payable",
-				"type": "function"
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -37,7 +23,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/KingHack.sol": "KingHack"
+			"contracts/DenialOfServiceHack.sol": "DenialOfService"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +37,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/KingHack.sol": {
-			"keccak256": "0xd26efb91ec543c26468c89e06616ea2ec067879f5c109ee6448bee85e0b4cc11",
+		"contracts/DenialOfServiceHack.sol": {
+			"keccak256": "0x19aaf55b136c1c3e2fb93eb9e28fa38103e58e07b4e3bae443fd2077b68867ee",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://696dd4806a413c5fffc064f18421e79113f1b0a6b2b073039301b38549bb0f6b",
-				"dweb:/ipfs/QmadAUJoJAxDWEqQixC9APq3ZWsvXoSTDZxn6NvqLBizkq"
+				"bzz-raw://10cbe48cdf813c549ad3729404c5cb337f3847c3dc5741054b07ee9f73ad430e",
+				"dweb:/ipfs/QmUn19JgpPpj2eyjBhed4uHK7aCxMhV3PKcnGvE32AC9UF"
 			]
 		}
 	},
